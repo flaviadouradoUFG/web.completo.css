@@ -1,0 +1,61 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container{
+    width: 720px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#marca{
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo{
+    width: 520px;
+    float: right;
+}
+
+#conteudo-principal{
+    float: left;
+    width: 320px;
+}
+
+#conteudo-secundario{
+    background: #d1d1d1;
+    float: right;
+    width: 180px;
+}
+
+#conteudo-secundario h2,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao{
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#navegacao ul{
+    list-style: none; /*Tirar a formatação de pontos na lateral da lista*/
+}
+
+#navegacao li a{
+    text-decoration: none; /*Tirar a formatação de sublinhado do link*/
+}
+
+#rodape{
+    clear: both; /*Limpar a propriedade flutuante*/
+    background: #c4c4c4;
+    padding: 5px;
+}
