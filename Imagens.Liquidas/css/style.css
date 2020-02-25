@@ -1,0 +1,76 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px; /*Manter um tamanho mínimo de redução do browser*/
+    max-width: 1200px;
+}
+
+#marca{
+    width: 100%;
+    height: 200px;
+    background: #225992 url("../img/cabecalho2.jpg") no-repeat center; /*Cor mais imagem*/
+    text-align: center;
+    line-height: 200px;
+}
+
+#conteudo{
+    width: 75%;
+    float: right;
+}
+
+#conteudo-principal{
+    float: left;
+    width: 63%;
+}
+
+img.img-noticia{
+    width: 94%;
+    padding: 2%;
+    max-width: 600px; /*A imagem pára de crescer pra manter a visualização*/
+}
+
+
+#conteudo-secundario{
+    background: #d1d1d1;
+    float: right;
+    width: 34%;
+}
+
+#conteudo-secundario h2,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#navegacao ul{
+    list-style: none; /*Tirar a formatação de pontos na lateral da lista*/
+}
+
+#navegacao li a{
+    text-decoration: none; /*Tirar a formatação de sublinhado do link*/
+}
+
+#rodape{
+    clear: both; /*Limpar a propriedade flutuante*/
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+/*#imagem{
+    width:90%;
+    overflow: hidden; /*Esconder parte do conteúdo da imagem quando diminuir o elemento
+}*/
