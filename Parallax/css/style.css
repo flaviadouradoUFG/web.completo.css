@@ -63,11 +63,11 @@ p{
 
 .conteudo-titulo span.titulo{
     border: 2px solid #fff;
-    border-radius: 10px;
+    border-radius: 5px 50px 5px 50px;
     text-transform: uppercase;
     color: #fff;
     background-color: #111;
     padding: 18px;
     font-size: 25px;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
